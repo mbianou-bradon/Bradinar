@@ -1,0 +1,23 @@
+{
+  "name": "webinar-platform",
+  "version": "1.0.0",
+  "description": "A Webinar platform is a software tool used for hosting many events online. The events hosted are seminars, conferences, and workshops.",
+  "main": "index.js",
+  "scripts": {
+    "build-test": "npx tailwindcss -i ./src/input.css -o ./public/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbianou-bradon/Webinar-platform.git"
+  },
+  "author": "Mbianou Bradon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbianou-bradon/Webinar-platform/issues"
+  },
+  "homepage": "https://github.com/mbianou-bradon/Webinar-platform#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "tailwindcss": "^3.2.4"
+  }
+}

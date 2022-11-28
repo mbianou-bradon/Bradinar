@@ -1,0 +1,14 @@
+/* Default Settings */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.video-card {
+    @apply rounded-lg p-5;
+}
+
+.icon {
+    @apply p-2 text-2xl w-fit rounded-lg;
+}
