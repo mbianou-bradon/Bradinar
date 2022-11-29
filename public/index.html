@@ -10,9 +10,9 @@
 <body class=" text-white font-sans">
     
         <div class="flex relative">
-            <nav class="bg-[#3651c4] px-2 py-10] w-fit h-auto">
-                <div class="Nav-brand py-10 ">
-                    <h2 class="text-3xl font-extrabold">Bradinar</h2>
+            <nav class="bg-[#3651c4] md:px-2 w-fit h-auto">
+                <div class="Nav-brand py-5 md:py-10 ">
+                    <h2 class=" text-xl md:text-3xl font-extrabold px-2">Bradinar</h2>
                 </div>
 
                 <ul class="flex flex-col gap-y-2 mb-5 border-b-2">
@@ -88,16 +88,16 @@
             </nav>
             
 
-        <main class="bg-[#f8f9fe] pl-10 pt-2 w-full">
+        <main class="bg-[#f8f9fe] md:pl-10 pt-2 w-full px-2">
                 <div>
-                    <div class="flex justify-between items-center gap-2 bg-white w-80 rounded-sm px-4 py-2 text-sm shadow-md my-10">
-                        <input type="text" placeholder="Search Webinar">
+                    <div class="flex justify-between items-center sm:gap-2 bg-white md:w-80 rounded-sm px-4 py-2 text-sm shadow-md my-10">
+                        <input type="text" placeholder="Search Webinar" class="focus:ring-0 italic focus:outline-none text-[#3651c4] min-w-0">
                         <div class="text-[#3651c6] text-xl">
                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m18.9 20.3l-5.6-5.6q-.75.6-1.725.95Q10.6 16 9.5 16q-2.725 0-4.612-1.887Q3 12.225 3 9.5q0-2.725 1.888-4.613Q6.775 3 9.5 3t4.613 1.887Q16 6.775 16 9.5q0 1.1-.35 2.075q-.35.975-.95 1.725l5.625 5.625q.275.275.275.675t-.3.7q-.275.275-.7.275q-.425 0-.7-.275ZM9.5 14q1.875 0 3.188-1.312Q14 11.375 14 9.5q0-1.875-1.312-3.188Q11.375 5 9.5 5Q7.625 5 6.312 6.312Q5 7.625 5 9.5q0 1.875 1.312 3.188Q7.625 14 9.5 14Z"/></svg> <!--Search Icon-->
                         </div>
                     </div>
 
-                    <div class="flex gap-7 text-sm [&>*]:bg-[#f2f2fe] [&>*]:px-2 [&>*]:py-1 [&>*]:rounded-md [&>*]:text-slate-500">
+                    <div class="hidden md:flex gap-7 text-sm [&>*]:bg-[#f2f2fe] [&>*]:px-2 [&>*]:py-1 [&>*]:rounded-md [&>*]:text-slate-500">
                         <div class="hover:text-white hover:bg-[#3651c6] cursor-pointer">Overview</div>
                         <div class="hover:text-white hover:bg-[#3651c6] cursor-pointer">Marketing</div>
                         <div class="hover:text-white hover:bg-[#3651c6] cursor-pointer">Design</div>
@@ -176,9 +176,9 @@
                         <h2>Upcoming</h2>
                     </div>
 
-                    <div class="flex flex-wrap gap-5 items-center my-10 [&>*]:rounded-2xl [&>*]:w-64">
+                    <div class="flex flex-wrap gap-5 items-center my-10 [&>*]:rounded-2xl [&>*]:md:w-64">
 
-                        <div class="bg-[#70c0f1] h-auto overflow-hidden">
+                        <div class="bg-[#70c0f1] w-full h-auto overflow-hidden">
                             <div class="p-5">
                                 <div class="flex justify-between items-center">
                                     <div class="icon bg-[#9ed8fc]">
@@ -198,7 +198,7 @@
                             
                         </div>
 
-                        <div class="bg-[#fa9ecf] h-auto overflow-hidden">
+                        <div class="bg-[#fa9ecf] w-full h-auto overflow-hidden">
                             <div class="p-5">
                                 <div class="flex justify-between items-center">
                                     <div class="icon bg-[#fca9d3]">
@@ -219,7 +219,7 @@
                         </div>
 
 
-                        <div class="bg-[#fcb299] h-auto overflow-hidden">
+                        <div class="bg-[#fcb299] w-full h-auto overflow-hidden">
 
                             <div class="p-5">
                                 <div class="flex justify-between items-center">
@@ -253,7 +253,7 @@
                             <p class="text-slate-400">View All</p>
                         </div>
 
-                        <div class="flex gap-5 text-xl my-8 [&>*]:rounded-xl">
+                        <div class="flex flex-wrap gap-5 text-xl my-8 [&>*]:rounded-xl">
                             <div class="bg-[#fb94bf] p-2 w-64">
                                 <div class="flex items-center justify-between gap-4">
                                     <div class="icon bg-[#fbaacb]">
@@ -308,7 +308,7 @@
 
             </main>
 
-            <section class="bg-white text-black p-3 w-[30%] absolute z-20 right-0">
+            <section class="hidden md:block bg-white text-black p-3 w-[30%] absolute z-20 right-0">
                 <div>
                     <div>
                         <div class="flex justify-between items-center mb-4">
