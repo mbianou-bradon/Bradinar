@@ -6,7 +6,7 @@
 
 
 .video-card {
-    @apply rounded-lg p-5;
+    @apply w-64 h-44 rounded-lg px-4 py-3;
 }
 
 .icon {
