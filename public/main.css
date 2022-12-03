@@ -521,8 +521,48 @@ video {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .right-0 {
   right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-40 {
+  top: 10rem;
+}
+
+.top-36 {
+  top: 9rem;
+}
+
+.top-32 {
+  top: 8rem;
+}
+
+.top-28 {
+  top: 7rem;
+}
+
+.top-20 {
+  top: 5rem;
 }
 
 .z-20 {
@@ -611,6 +651,10 @@ video {
   height: 130px;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
@@ -646,6 +690,10 @@ video {
 
 .w-\[300px\] {
   width: 300px;
+}
+
+.w-\[95\%\] {
+  width: 95%;
 }
 
 .min-w-0 {
@@ -745,14 +793,14 @@ video {
   background-color: rgb(54 81 196 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#f8f9fe\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 249 254 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f8f9fe\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 249 254 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#9889f2\] {
@@ -939,14 +987,14 @@ video {
   line-height: 1.75rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-2xl {
@@ -975,14 +1023,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#3651c6\] {
-  --tw-text-opacity: 1;
-  color: rgb(54 81 198 / var(--tw-text-opacity));
-}
-
 .text-\[\#3651c4\] {
   --tw-text-opacity: 1;
   color: rgb(54 81 196 / var(--tw-text-opacity));
+}
+
+.text-\[\#3651c6\] {
+  --tw-text-opacity: 1;
+  color: rgb(54 81 198 / var(--tw-text-opacity));
 }
 
 .text-black {
@@ -1110,10 +1158,6 @@ video {
     width: 20rem;
   }
 
-  .md\:gap-7 {
-    gap: 1.75rem;
-  }
-
   .md\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -1131,12 +1175,6 @@ video {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:block {
-    display: block;
   }
 }
 
@@ -1175,5 +1213,11 @@ video {
 @media (min-width: 768px) {
   .\[\&\>\*\]\:md\:w-64>* {
     width: 16rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
   }
 }
