@@ -10,5 +10,21 @@
 }
 
 .icon {
-    @apply p-2 text-2xl w-fit rounded-lg;
+    @apply p-2 text-xl md:text-2xl w-fit rounded-lg;
+}
+
+.assetVideo {
+    @apply text-3xl text-[#3651c6] cursor-pointer;
+}
+
+.sideMenuSubMenu {
+    @apply hover:text-[#1c39b9] hover:bg-[#e2e3ff] px-2 md:px-5 py-3 cursor-pointer;
+}
+
+.sideMenu-heading {
+    @apply font-semibold text-2xl;
+}
+
+.sideMenu-img {
+    @apply w-[300px] h-[130px] object-cover object-center rounded-3xl;
 }
