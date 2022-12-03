@@ -22,9 +22,9 @@
 }
 
 .sideMenu-heading {
-    @apply font-semibold text-2xl;
+    @apply font-semibold text-xl md:text-2xl;
 }
 
 .sideMenu-img {
-    @apply w-[300px] h-[130px] object-cover object-center rounded-3xl;
+    @apply w-48 h-24 md:w-[300px] md:h-[130px] object-cover object-center rounded-3xl;
 }

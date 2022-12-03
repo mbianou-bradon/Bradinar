@@ -708,6 +708,10 @@ video {
   row-gap: 1.25rem;
 }
 
+.gap-y-7 {
+  row-gap: 1.75rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1084,19 +1088,33 @@ video {
 }
 
 .sideMenu-heading {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 600;
 }
 
+@media (min-width: 768px) {
+  .sideMenu-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
 .sideMenu-img {
-  height: 130px;
-  width: 300px;
+  height: 6rem;
+  width: 12rem;
   border-radius: 1.5rem;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+@media (min-width: 768px) {
+  .sideMenu-img {
+    height: 130px;
+    width: 300px;
+  }
 }
 
 .hover\:bg-\[\#4964d9\]:hover {
@@ -1144,6 +1162,10 @@ video {
     display: none;
   }
 
+  .md\:h-screen {
+    height: 100vh;
+  }
+
   .md\:w-80 {
     width: 20rem;
   }
@@ -1154,6 +1176,10 @@ video {
 
   .md\:w-12 {
     width: 3rem;
+  }
+
+  .md\:w-2\/5 {
+    width: 40%;
   }
 
   .md\:gap-y-10 {
