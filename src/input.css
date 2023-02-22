@@ -1,0 +1,30 @@
+/* Default Settings */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.video-card {
+    @apply w-full md:w-64 h-44 rounded-lg px-4 py-3;
+}
+
+.icon {
+    @apply p-2 text-xl md:text-2xl w-fit rounded-lg;
+}
+
+.assetVideo {
+    @apply text-3xl text-[#3651c6] cursor-pointer;
+}
+
+.sideMenuSubMenu {
+    @apply hover:text-[#1c39b9] hover:bg-[#e2e3ff] px-2 md:px-5 py-3 cursor-pointer;
+}
+
+.sideMenu-heading {
+    @apply font-semibold text-xl md:text-2xl;
+}
+
+.sideMenu-img {
+    @apply w-48 h-24 md:w-[300px] md:h-[130px] object-cover object-center rounded-3xl;
+}
